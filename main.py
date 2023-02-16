@@ -35,7 +35,7 @@ else:
         case 400:
             print("Bad request")
         case 401:
-            print("Unathorized")
+            print("Unauthorized")
         case 403:
             print("Forbidded")
         case 404:
