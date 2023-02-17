@@ -7,7 +7,7 @@ from reports_builder import ReportsBuilder
 
 
 cmc = CoinMarketCapData(os.getenv("API_KEY"))
-#print(cmc.getAllCoinsSymbols())
+print(cmc.get_all_coins_symbols())
 #pp(cmc.getPrice('BTC', 'ETH'))
 symbols_list = [
     'BTC', 'ETH', 'USDT', 'BNB', 'USDC', 'XRP', 'BUSD', 'ADA', 'DOGE', 'MATIC',
