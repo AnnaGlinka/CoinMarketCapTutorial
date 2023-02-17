@@ -21,7 +21,9 @@ for symbol in symbols_list:
 
 
 rb = ReportsBuilder()
+print("All cryptocurrency available in the API:")
 response_data = cmc.get_coin_price(symbols)
+print("-------------------------------------------------------------------------")
 coin_data = response_data[0]
 response_status_code = response_data[1]
 
