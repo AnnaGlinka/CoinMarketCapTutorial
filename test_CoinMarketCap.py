@@ -1,4 +1,4 @@
-from CoinMarketCapData import CoinMarketCapData
+from coin_market_cap_data import CoinMarketCapData
 from requests import Session
 import os
 

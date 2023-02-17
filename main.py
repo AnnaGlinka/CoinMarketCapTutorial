@@ -1,11 +1,9 @@
 from pprint import pprint as pp
 import os
-from CoinMarketCapData import CoinMarketCapData
-from ReportsBuilder import ReportsBuilder
+from coin_market_cap_data import CoinMarketCapData
+from reports_builder import ReportsBuilder
 
 #https://coinmarketcap.com/api/documentation/v1
-
-
 
 
 cmc = CoinMarketCapData(os.getenv("API_KEY"))
